@@ -1,0 +1,97 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.wrapper {
+  min-height: 100vh;
+  font-weight: 300;
+  position: relative;
+}
+
+.nav_wrapper {
+  position: fixed!important;
+  height: 100%!important;
+  padding: 30px!important;
+  display: flex!important;
+  flex-flow: column nowrap!important;
+  justify-content: flex-end!important;
+}
+
+
+
+
+/* .navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link {
+  color: red;
+} */
+
+#lex {
+  margin: 0 0 100px 30px;
+
+}
+#lex a {
+  font-size: 24px!important;
+  transition: all 0.30s ease-out!important;
+}
+
+#lex a {
+  position: relative;
+  transition: all 0.3s ease-out!important;
+  margin-bottom: 1em!important;
+  background-color: transparent!important;
+}
+#lex .nav_item:after {
+  content: "";
+  display: block;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  height: 250px;
+  width: 20px;
+  position: absolute;
+  left: -30px;
+  top: 15px;
+}
+#lex a {
+  display: block;
+  padding: 0;
+  color: white;
+  transition: all 0.45s ease-out!important;
+}
+
+#lex .nav_item:hover {
+  background: transparent!important;
+  padding-left: 1em!important;
+}
+#lex .nav_item:focus {
+  background-color: transparent!important;
+}
+#lex a.active {
+  pointer-events: none!important;
+  padding-left: 1em!important;
+  border: none!important;
+  margin-bottom: 30px!important;
+  font-size: 2em;
+}
+
+.list-group-item-action {
+  border: none!important;
+}
+#lex a.active:after {
+  width: 35px!important;
+  height: 400px!important;
+  top: 35px!important;
+}
+
+.section {
+  /* min-height: 100vh; */
+}
+
+.scrollspy-example {
+  height: 100vh;
+  overflow: auto;
+  /* overflow-y: scroll; */
+}
+
